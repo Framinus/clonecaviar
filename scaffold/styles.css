@@ -1,0 +1,55 @@
+/*
+ * Write your CSS here
+ */
+
+body {
+  font-family: helvetica neue, sans-serif;
+}
+
+.header-container {
+  align-items: center;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 40px;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.profile-img {
+  border: 1px solid red;
+  margin: 5px;
+}
+
+.signin {
+  border: 1px solid red;
+}
+
+.bag-img {
+  border: 1px solid red;
+}
+
+
+.header-banner-container {
+  background-image: url('https://img.trycaviar.com/x7pgux2UGo3J3wY_QrD3lITEmnk=/1680x1120/https://s3.amazonaws.com/trycaviar.com/offers/151/9049.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  filter: brightness(50%);
+  flex-direction: row;
+  height: 250px;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.sf-east-bay {
+  color: rgb(246, 91, 44);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.footer-container {
+  background-color: #547087;
+  height: 100px;
+}
