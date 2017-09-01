@@ -6,11 +6,12 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<!-- Header: title bar, main image row, delivery info row -->
-  <div class="header-container">
-    <div><img class="profile-img" src="icons/profile.png"></div>
+  <div class="container">
+    <div class="header-container">
+      <div><img class="profile-img"     src="icons/profile.png"></div>
     <!-- <div><p class="signin">Sign In</p></div> -->
-    <div><img class="bag-img" src="icons/bag.png"></div>
+      <div><img class="bag-img" src="icons/bag.png"></div>
+    </div>
   </div>
   <div class="header-banner-container">
     <div class="banner-text">
@@ -19,31 +20,33 @@
       <p class="description">Mac &amp; Cheese Specialists</p>
     </div>
   </div>
-  <div class="delivery-info-bar">
-  </div>
+  <div class="container">
+    <div class="delivery-info-bar">
+      <ul class="delivery-info-container">
+        <li class="delivery"><span class="highlighted">Delivery</span> within 30-40 minutes.</li>
+        <li class="delivery">Open Now <span class="highlighted">(View Available Hours)</span></li>
+        <li class="group-order"><div class="btn-element"><img src="icons/two-people.png"></div><div class="btn-element">Start Group Order</div></li>
+      </ul>
+    </div>
 <!-- Body: Delivery notice, menu sections (rows of three elements) -->
-  <div class="main-content">
-    <div class="deliverynotice"></div>
-    <div class="menu-cats">
-      <!-- <div class="popular"></div>
-      <div class="secretmenu"></div>
-      <div class="lunchmenu"></div>
-      <div class="macncheese"></div>
-      <div class="veggies"></div>
-      <div class="heatandeat"></div>
-      <div class="desserts"></div>
-      <div class="drinks"></div>
-      <div class="merchandise"></div>
-      <div class="platters"></div>
-      <div class="side-platters"></div>
-      <div class="desserts-crowd"></div> -->
+    <div class="main-content">
+      <div class="delivery-notice"><p>Orders over $350 require 24 hours advanced notice.</p></div>
+        <div class="popular-title"><p>POPULAR</p></div>
+        <div class="popular">
+          <div>image placeholder</div>
+          <div>title placeholder</div>
+          <div>description placeholder</div>
+          <div>price placeholder</div>
+        </div>
+        <div class="secretmenu"></div>
     </div>
   </div>
 <!-- Footer: horizontal grid of 3: location, phone order, drop-down menu -->
-<div class="footer-container">
-  <div class="footer-info">
-  </div>
-  <div class="footer-copyright"><p>&copy; 2012-2017 Square</p></div>
-</div>
-</body>
+
+    <div class="footer-container">
+      <div class="location"><p>SF: East Bay</p><img src="placeholder.jpg">
+      </div>
+    </div>
+      <div class="footer-copyright"><p>&copy; 2012-2017 Square</p></div>
+  </body>
 </html>
